@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top:0;
+}
+.top{
+    background-color: black;
+    height: 1vw;
+    width: 100vw;
+}
+.navbar{
+    background-color: white;
+    height: 5vw;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.Name{
+    display: flex;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-left: 6vw;
+}
+.fullstop{
+    color: rgba(186, 39, 39, 0.807);
+}
+.navtext{
+    display: flex;
+    width:50%;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    font-weight:550;
+    color: rgba(128, 128, 128);
+}
+.Booking1{
+    background-color: rgb(189, 16, 16);
+    border:none;
+    border-radius: 2rem;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-right: 6vw ;
+}
+.Drop{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgba(128, 128, 128);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.bottom{
+    width:100vw;
+    height:1vw;
+    background-color: rgba(245, 147, 66);
+}
+.hero-section{
+    display: flex;
+    background-color: rgba(245, 147, 66);
+    justify-content: space-between;
+    width:100vw;
+    height:26vw;
+}
+.lefthero{
+    margin-left: 8rem;
+    width: 50vw;
+    margin-top: 8rem;
+}
+.hero-text{
+    font-weight: 550;
+    font-size: 3.2rem;
+}
+.hero-inner{
+    margin-top: 1rem;
+    color: #696969;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.bottom-hero{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    width: 22vw;
+}
+.Booking2{
+    background-color: rgb(189, 16, 16);
+    border:none;
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem 2.7rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.bottomright{
+    margin-top: 0.3vw;
+    width:9vw;
+    display:flex;
+    justify-content:space-between;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+.icon{
+    height: 2vw;
+    margin-right: 0.5vw;
+}
+.brtext{
+    margin-top: 0.4vw;
+    font-weight:bold;
+
+}
+.Img{
+    width:35vw;
+    height:18vw;
+    margin-right: 5vw;
+    margin-top: 4vw;
+}
+.first{
+    width: 100vw;
+    position: absolute;
+    height: 55vw;
+    background-color: white;
+}
+.a{
+    margin-top: 4vw;
+    display: flexbox;
+}
+.ftext{
+    margin-left: 47vw;
+    color: dimgray;
+    font-size: 1.2rem;
+}
+.both{
+    display: flex;
+    margin-left: 41vw;
+    margin-top: 1vw;
+    font-size: 1.8rem;
+    justify-content: space-between;
+    width: 17.7vw;
+}
+.atext{
+    color: rgb(191, 34, 34);
+}
+.b{
+    margin-left: 4vw;
+    margin-top: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.low{
+    height: 8vw;
+    width: 40vw;
+    margin-left: 8vw;
+    font-size: 2.3rem;
+    display: flexbox;
+    background-color: white;
+    position: absolute;
+    top: 64%;
+    left: 2.5%;
+}
+.book{
+    margin-left: 15vw;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+.num{
+    font-weight: bold;
+    color: rgb(191, 34, 34);
+    margin-left: 13vw;
+    margin-top: 0.2vw;
+}
+.right{
+    margin-right:6vw;
+    font-size: 1.3rem;
+    margin-left: 5rem;
+}
+.topright{
+    line-height: 1.2;
+    font-style: italic;
+}
+li::marker {
+    content: url("images/Icons/check-double-solid.svg");
+    line-height: 2;
+}
+.list{
+    margin-left: 0.5vw;
+}
+.trbottom{
+    margin-top: 1.7vw;
+}
+.pic{
+    margin-top: 2vw;
+    height: 23.8rem;
+    width: 32.5vw;
+}
+.play1{
+    margin-top: 2vw;
+    height: 5rem;
+    width: 10vw;
+    position: absolute;
+    left: 72%;
+    top: 36.5vw;
+}
+.play2{
+    margin-top: 2vw;
+    height: 7rem;
+    width: 10vw;
+    position: absolute;
+    left: 72%;
+    top: 35.5vw;
+    opacity: 0.5;
+    fill-opacity: 0.1;
+}
+.second{
+    background-color:rgba(245, 147, 66);
+    height: 90vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 2rem;
+}
+.f{
+    margin-left: 10rem;
+    width: 20vw;
+    height: 20vw;
+}
