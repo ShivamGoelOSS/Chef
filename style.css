@@ -3,8 +3,10 @@
     padding: 0;
 }
 header{
-    position: sticky;
-    top:0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
 }
 .top{
     background-color: black;
@@ -55,17 +57,13 @@ header{
     font-weight: bold;
     font-size: 1.4rem;
 }
-.bottom{
-    width:100vw;
-    height:1vw;
-    background-color: rgba(245, 147, 66);
-}
 .hero-section{
     display: flex;
     background-color: rgba(245, 147, 66);
     justify-content: space-between;
     width:100vw;
     height:26vw;
+    margin-top: 100px;
 }
 .lefthero{
     margin-left: 8rem;
